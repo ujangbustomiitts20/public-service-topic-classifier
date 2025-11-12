@@ -144,7 +144,6 @@ joblib
 
 Proyek ini dirilis di bawah lisensi MIT.
 Silakan gunakan dan kembangkan ulang untuk keperluan riset atau edukasi.
-
 ---
 
 ## 👤 Kontributor
@@ -152,7 +151,4 @@ Silakan gunakan dan kembangkan ulang untuk keperluan riset atau edukasi.
 **Aolia Ikhwanudin**
 AI & Data Researcher | System Analyst | Lecturer
 🌐 [https://github.com/ujangbustomiitts20](https://github.com/ujangbustomiitts20)
-
-```
----
 
