@@ -1,7 +1,3 @@
-Perfect 👍 Here’s the **English version of the README.md**, written in a clean and professional GitHub style — suitable for public repositories or portfolio demonstration.
-
----
-
 ```markdown
 # 🧠 Topic Classifier — TF-IDF + SGDClassifier
 
