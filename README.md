@@ -99,36 +99,6 @@ python src/predict2.py
 
 ---
 
-## 💡 Jalankan Langsung di Google Colab
-
-Salin kode *Quickstart* berikut ke Colab:
-
-```python
-from sklearn.pipeline import make_pipeline
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import SGDClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
-import pandas as pd, joblib, os
-
-data = [
-    ("Perpanjangan KTP elektronik di kecamatan Ciputat", "administrasi"),
-    ("Pengajuan izin usaha mikro kecil (IUMK) online", "perizinan"),
-    ("Perbaikan lampu jalan dan pelaporan infrastruktur", "infrastruktur"),
-    ("Izin reklame dan pajak reklame tahunan", "perizinan"),
-    ("Laporan jalan berlubang di Serpong", "infrastruktur"),
-    ("Perekaman KTP-el untuk pemula 17 tahun", "administrasi"),
-]
-df = pd.DataFrame(data, columns=["teks","label"])
-
-Xtr, Xte, ytr, yte = train_test_split(df["teks"], df["label"], test_size=0.5, stratify=df["label"])
-pipe = make_pipeline(TfidfVectorizer(ngram_range=(1,2)), SGDClassifier(loss="log_loss"))
-pipe.fit(Xtr, ytr)
-print("Akurasi:", accuracy_score(yte, pipe.predict(Xte)))
-joblib.dump(pipe, "topic_classifier.joblib")
-```
-
----
 
 ## 🧰 Dependensi
 
