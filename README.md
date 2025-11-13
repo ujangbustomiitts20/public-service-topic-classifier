@@ -1,18 +1,18 @@
 
 ```markdown
-# 🧠 Topic Classifier — TF-IDF + SGDClassifier
+#  Topic Classifier — TF-IDF + SGDClassifier
 
 Klasifikasi teks sederhana untuk menentukan **topik aduan atau permohonan layanan publik** seperti *administrasi*, *perizinan*, dan *infrastruktur*.  
 Proyek ini menggunakan pendekatan **TF-IDF (Text Feature Extraction)** dan **SGDClassifier** untuk membuat model klasifikasi multi-kelas yang ringan dan cepat dijalankan, bahkan di Google Colab.
 
-## 🚀 Fitur Utama
+##  Fitur Utama
 - **Preprocessing otomatis** dengan `TfidfVectorizer`  
 - **Klasifikasi multi-kelas** dengan `SGDClassifier(loss="log_loss")`  
 - **Pipeline scikit-learn** (mudah disimpan & dimuat ulang)  
 - **Akurasi cepat dihitung** meskipun dataset kecil  
 - **Dapat dijalankan di Google Colab atau lokal**
 
-## 🧩 Struktur Proyek
+##  Struktur Proyek
 
 topic-classifier/
 ├─ data/
@@ -27,7 +27,7 @@ topic-classifier/
 └─ README.md
 
 ```
-## 📦 Instalasi
+##  Instalasi
 
 ```bash
 # 1. Clone repositori
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Pelatihan Model
+##  Pelatihan Model
 
 Gunakan dataset CSV (`data/train.csv`) dengan dua kolom:
 
@@ -75,7 +75,7 @@ Model tersimpan di `models/topic_classifier.joblib`.
 
 ---
 
-## 🔍 Prediksi Kalimat Baru
+##  Prediksi Kalimat Baru
 
 Cara 1 langsung masukan topik
 ```bash
@@ -101,7 +101,7 @@ python src/predict2.py
 ---
 
 
-## 🧰 Dependensi
+##  Dependensi
 
 ```text
 pandas
@@ -111,7 +111,7 @@ joblib
 
 ---
 
-## 📚 Lisensi
+##  Lisensi
 
 Proyek ini dirilis di bawah lisensi MIT.
 Silakan gunakan dan kembangkan ulang untuk keperluan riset atau edukasi.
@@ -120,6 +120,6 @@ Silakan gunakan dan kembangkan ulang untuk keperluan riset atau edukasi.
 ## 👤 Kontributor
 
 **Aolia Ikhwanudin**
-AI & Data Researcher | System Analyst | Lecturer
+GovTech AI Specialist | RAG & Local LLM Developer | Smart Governance System Analyst | Lecturer
 🌐 [https://github.com/ujangbustomiitts20](https://github.com/ujangbustomiitts20)
 
