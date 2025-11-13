@@ -21,7 +21,8 @@ topic-classifier/
 │  └─ topic_classifier.joblib   # Model tersimpan (setelah training)
 ├─ src/
 │  ├─ train.py                  # Script pelatihan model
-│  └─ predict.py                # Script untuk prediksi baru
+│  └─ predict.py               
+│  └─ predict2.py               
 ├─ requirements.txt
 └─ README.md
 
